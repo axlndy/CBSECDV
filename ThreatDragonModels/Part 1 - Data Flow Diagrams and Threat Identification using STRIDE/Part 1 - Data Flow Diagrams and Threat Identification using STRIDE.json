@@ -2239,7 +2239,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Selects & Customizes Order",
+              "name": "Requests Orders",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2253,7 +2253,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Selects & Customizes Order"
+              "Requests Orders"
             ],
             "id": "9e65236d-6ec5-49ec-88ec-454ab90da313",
             "source": {
@@ -2295,7 +2295,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Submits Order Details",
+              "name": "Order Request",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2309,7 +2309,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Submits Order Details"
+              "Order Request"
             ],
             "id": "1efe5fc0-8034-4327-a325-97541e8dcb55",
             "source": {

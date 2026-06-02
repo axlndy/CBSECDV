@@ -2455,7 +2455,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Customer"
+                "text": "Manager"
               },
               "body": {
                 "stroke": "#333333",
@@ -2551,7 +2551,7 @@
             "id": "417e63df-44bf-405a-b68f-2276f4f3cbcf",
             "data": {
               "type": "tm.Actor",
-              "name": "Customer",
+              "name": "Manager",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -2559,6 +2559,13 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {

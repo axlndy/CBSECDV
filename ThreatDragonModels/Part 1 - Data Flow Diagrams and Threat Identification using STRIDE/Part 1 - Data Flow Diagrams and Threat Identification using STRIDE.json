@@ -106,28 +106,18 @@
             "id": "33b862d3-f5a0-4e57-96fc-7f3ae3186f60",
             "source": {
               "x": 610,
-              "y": 40
+              "y": 10
             },
             "target": {
               "x": 940,
-              "y": 40
+              "y": 10
             },
             "vertices": [
               {
-                "x": 770,
-                "y": 90
+                "x": 750,
+                "y": 60
               }
-            ],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            ]
           },
           {
             "position": {
@@ -373,7 +363,7 @@
           {
             "position": {
               "x": 716.25,
-              "y": -50
+              "y": -70
             },
             "size": {
               "width": 112.5,
@@ -999,7 +989,7 @@
             "vertices": [
               {
                 "x": 700,
-                "y": 120
+                "y": 100
               }
             ]
           },
@@ -1051,7 +1041,7 @@
             "vertices": [
               {
                 "x": 840,
-                "y": 120
+                "y": 100
               }
             ]
           },

@@ -55,6 +55,7 @@
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
+            "zIndex": -1,
             "connector": "smooth",
             "data": {
               "type": "tm.Boundary",
@@ -82,8 +83,7 @@
                 "x": 972,
                 "y": 332
               }
-            ],
-            "zIndex": -1
+            ]
           },
           {
             "shape": "trust-boundary-curve",
@@ -140,6 +140,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -223,7 +224,6 @@
               ]
             },
             "id": "417e63df-44bf-405a-b68f-2276f4f3cbcf",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Customer",
@@ -260,6 +260,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -343,7 +344,6 @@
               ]
             },
             "id": "94d6473d-2e88-44bc-ab90-cd4a1cc64d24",
-            "zIndex": 5,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB",
@@ -381,6 +381,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -464,7 +465,6 @@
               ]
             },
             "id": "8603e979-93f6-4d99-a713-8a520496df14",
-            "zIndex": 6,
             "data": {
               "type": "tm.Actor",
               "name": "Third-Party \nPayment Service",
@@ -498,6 +498,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -594,8 +595,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 8
+            }
           },
           {
             "position": {
@@ -618,6 +618,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -714,8 +715,7 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            },
-            "zIndex": 9
+            }
           },
           {
             "shape": "flow",
@@ -766,58 +766,6 @@
               {
                 "x": 250,
                 "y": 360
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Selects & Customizes Order",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Selects & Customizes Order"
-            ],
-            "id": "9e65236d-6ec5-49ec-88ec-454ab90da313",
-            "source": {
-              "cell": "417e63df-44bf-405a-b68f-2276f4f3cbcf",
-              "port": "e885e008-9ca4-451f-be91-af0e2120c059"
-            },
-            "target": {
-              "cell": "8e66e434-e62e-475c-b480-555ce5370cf7",
-              "port": "57e775a7-1322-4d52-beb4-a7a8fcc8dd8b"
-            },
-            "vertices": [
-              {
-                "x": 250,
-                "y": 260
               }
             ]
           },
@@ -1078,6 +1026,62 @@
               {
                 "x": 840,
                 "y": 120
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Selects & Customizes Order",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Selects & Customizes Order"
+            ],
+            "id": "9e65236d-6ec5-49ec-88ec-454ab90da313",
+            "source": {
+              "cell": "417e63df-44bf-405a-b68f-2276f4f3cbcf",
+              "port": "30c96e81-b0cc-483f-a04d-3ce7dd4f7b53"
+            },
+            "target": {
+              "cell": "8e66e434-e62e-475c-b480-555ce5370cf7",
+              "port": "d6c45715-3f9b-40b7-a9a2-95e100bc5a3b"
+            },
+            "vertices": [
+              {
+                "x": 150,
+                "y": 220
+              },
+              {
+                "x": 350,
+                "y": 190
               }
             ]
           }

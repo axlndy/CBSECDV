@@ -599,7 +599,7 @@
           },
           {
             "position": {
-              "x": 352.5,
+              "x": 350,
               "y": 244
             },
             "size": {
@@ -716,110 +716,6 @@
               "privilegeLevel": "",
               "threats": []
             }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Displays Order Status",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Displays Order Status"
-            ],
-            "id": "48f458a0-95f8-44f8-84a0-2be3f6f4c177",
-            "source": {
-              "cell": "8e66e434-e62e-475c-b480-555ce5370cf7",
-              "port": "57e775a7-1322-4d52-beb4-a7a8fcc8dd8b"
-            },
-            "target": {
-              "cell": "417e63df-44bf-405a-b68f-2276f4f3cbcf",
-              "port": "e885e008-9ca4-451f-be91-af0e2120c059"
-            },
-            "vertices": [
-              {
-                "x": 250,
-                "y": 360
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Sends Order Confirmation",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Sends Order Confirmation"
-            ],
-            "id": "9d71ff7a-117b-40bb-895f-b3f1b5eb4f54",
-            "source": {
-              "cell": "27aac73c-6b97-4f45-a590-75778135a310",
-              "port": "57e775a7-1322-4d52-beb4-a7a8fcc8dd8b"
-            },
-            "target": {
-              "cell": "8e66e434-e62e-475c-b480-555ce5370cf7",
-              "port": "8aa2ba23-aed2-4ba8-b52e-c29cd3adf7d9"
-            },
-            "vertices": [
-              {
-                "x": 580,
-                "y": 360
-              }
-            ]
           },
           {
             "shape": "flow",
@@ -1081,7 +977,115 @@
               },
               {
                 "x": 350,
-                "y": 190
+                "y": 220
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Displays Order Status",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Displays Order Status"
+            ],
+            "id": "48f458a0-95f8-44f8-84a0-2be3f6f4c177",
+            "source": {
+              "cell": "8e66e434-e62e-475c-b480-555ce5370cf7",
+              "port": "b50782b8-d6c8-4a3a-b3d3-f7152b80d4ab"
+            },
+            "target": {
+              "cell": "417e63df-44bf-405a-b68f-2276f4f3cbcf",
+              "port": "606394a8-37b6-49c8-b98f-afacad92df22"
+            },
+            "vertices": [
+              {
+                "x": 350,
+                "y": 390
+              },
+              {
+                "x": 150,
+                "y": 390
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Sends Order Confirmation",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Sends Order Confirmation"
+            ],
+            "id": "9d71ff7a-117b-40bb-895f-b3f1b5eb4f54",
+            "source": {
+              "cell": "27aac73c-6b97-4f45-a590-75778135a310",
+              "port": "b50782b8-d6c8-4a3a-b3d3-f7152b80d4ab"
+            },
+            "target": {
+              "cell": "8e66e434-e62e-475c-b480-555ce5370cf7",
+              "port": "b50782b8-d6c8-4a3a-b3d3-f7152b80d4ab"
+            },
+            "vertices": [
+              {
+                "x": 580,
+                "y": 360
               }
             ]
           }

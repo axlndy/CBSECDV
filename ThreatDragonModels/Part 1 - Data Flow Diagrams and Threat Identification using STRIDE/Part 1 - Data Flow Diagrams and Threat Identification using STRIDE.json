@@ -372,14 +372,47 @@
                   "new": false,
                   "number": 3,
                   "score": ""
+                },
+                {
+                  "id": "69e3be81-f425-4ac9-8ddd-b465fdf55c96",
+                  "title": "Order Data Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "An attacker could modify order details (e.g., items, quantities, prices, status) in transit or at rest.\n",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                },
+                {
+                  "id": "7de1a045-1d1c-4838-9ed3-b19cee92f876",
+                  "title": "Fraudulent Order Repudiation ",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "A customer could deny placing an order if insufficient logging and nonrepudiation controls are in place.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "tampering": 1,
-                "repudiation": 0,
+                "tampering": 2,
+                "repudiation": 1,
                 "informationDisclosure": 0,
                 "denialOfService": 0
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -629,12 +662,64 @@
                   "new": false,
                   "number": 2,
                   "score": ""
+                },
+                {
+                  "id": "a58f8a86-c0b7-4acc-8179-c9a692b60802",
+                  "title": "Web Application Server Spoofing",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "An attacker might set up a fraudulent web server to phish user credentials or intercept sensitive data.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                },
+                {
+                  "id": "43717dd0-880d-4158-a59c-c9f562062ec1",
+                  "title": "Order Data Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "An attacker could modify order details (e.g., items, quantities, prices, status) in transit or at rest.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                },
+                {
+                  "id": "a63c5591-b7fe-4c20-a98f-ea4ecfbb2a04",
+                  "title": "Application Code/Configuration Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Malicious modification of the application’s source code, server configurations, or environment variables could introduce backdoors or disable security features.\n",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                },
+                {
+                  "id": "cf016c8c-bd68-4681-8189-4cb11af119b9",
+                  "title": "Fraudulent Order Repudiation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "A customer could deny placing an order if insufficient logging and nonrepudiation controls are in place.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "spoofing": 2,
-                "tampering": 0,
-                "repudiation": 0,
+                "spoofing": 3,
+                "tampering": 2,
+                "repudiation": 1,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
@@ -771,23 +856,29 @@
                   "new": false,
                   "number": 1,
                   "score": ""
+                },
+                {
+                  "id": "6e9dfe8b-23e5-478d-bd5e-d95972704b6c",
+                  "title": "Web Application Server Spoofing ",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "An attacker might set up a fraudulent web server to phish user credentials or intercept sensitive data.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 3,
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -4324,6 +4415,6 @@
     ],
     "diagramTop": 13,
     "reviewer": "",
-    "threatTop": 3
+    "threatTop": 10
   }
 }

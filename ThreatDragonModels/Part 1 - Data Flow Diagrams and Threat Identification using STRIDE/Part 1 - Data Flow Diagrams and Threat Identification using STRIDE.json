@@ -3677,7 +3677,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Customer"
+                "text": "Administrator"
               },
               "body": {
                 "stroke": "#333333",
@@ -3773,7 +3773,7 @@
             "id": "417e63df-44bf-405a-b68f-2276f4f3cbcf",
             "data": {
               "type": "tm.Actor",
-              "name": "Customer",
+              "name": "Administrator",
               "description": "",
               "isTrustBoundary": false,
               "outOfScope": false,
@@ -3781,6 +3781,13 @@
               "hasOpenThreats": false,
               "providesAuthentication": false,
               "threats": []
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {

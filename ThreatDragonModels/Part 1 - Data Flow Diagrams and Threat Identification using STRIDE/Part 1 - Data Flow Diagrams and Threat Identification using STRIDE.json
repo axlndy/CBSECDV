@@ -1728,13 +1728,26 @@
                   "new": false,
                   "number": 29,
                   "score": ""
+                },
+                {
+                  "id": "81708d6b-9ef5-40f8-83a1-66b3c39ee84c",
+                  "title": "MongoDB Database DoS",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Denial of service",
+                  "description": "Malicious or poorly optimized queries could overload the database, making it unresponsive.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 32,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 2,
                 "repudiation": 1,
                 "informationDisclosure": 1,
-                "denialOfService": 0
+                "denialOfService": 1
               }
             }
           },
@@ -1946,6 +1959,58 @@
                   "new": false,
                   "number": 30,
                   "score": ""
+                },
+                {
+                  "id": "b81c534b-a656-49c4-b331-3fa6e42ea0e6",
+                  "title": "Web Application Server DoS",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "An attacker could flood the Web Application Server with excessive requests, making it unavailable. ",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 31,
+                  "score": ""
+                },
+                {
+                  "id": "c67f3557-98db-4e7e-8781-bff5f8bce4c7",
+                  "title": "MongoDB Database DoS",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Denial of service",
+                  "description": "Malicious or poorly optimized queries could overload the database, making it unresponsive.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 33,
+                  "score": ""
+                },
+                {
+                  "id": "f09bd031-bd55-4ffb-a13c-1847339df1b6",
+                  "title": "Barista/Manager to Administrator Privilege Escalation",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Elevation of privilege",
+                  "description": "A Barista or Manager could exploit a vulnerability to gain Administrator privileges.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 34,
+                  "score": ""
+                },
+                {
+                  "id": "4b8315ca-a30f-48fe-9040-da54335421cd",
+                  "title": "Horizontal Privilege Escalation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Elevation of privilege",
+                  "description": "Gaining unauthorized access to another user’s account within the same privilege level.",
+                  "mitigation": "",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 35,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
@@ -1953,8 +2018,8 @@
                 "tampering": 2,
                 "repudiation": 1,
                 "informationDisclosure": 2,
-                "denialOfService": 0,
-                "elevationOfPrivilege": 0
+                "denialOfService": 2,
+                "elevationOfPrivilege": 2
               }
             }
           },
@@ -4695,6 +4760,6 @@
     ],
     "diagramTop": 13,
     "reviewer": "",
-    "threatTop": 30
+    "threatTop": 35
   }
 }
